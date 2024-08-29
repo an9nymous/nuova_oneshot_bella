@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "35d9de47396271b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "92dbbe3a7fb86ad5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb40a7b07a108f47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "connessione altri dispositivi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e1079994c26be628",
+    "type": "split",
+    "children": [
+      {
+        "id": "26c6a73670342ef5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7df6344fcc3a4903",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "48c008c51ad3bb99",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "172c2776414ec8c1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3ce278b127aa1128",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc4f061666fddba5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bcd0e372b723969",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "connessione altri dispositivi.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2bd522ca8751d538",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "connessione altri dispositivi.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "55d8b88556703c94",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ab10074888ea8684",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "connessione altri dispositivi.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false
+    }
+  },
+  "active": "cb40a7b07a108f47",
+  "lastOpenFiles": [
+    "connessione altri dispositivi.md",
+    "nuova_oneshot_bella",
+    "Benvenuto.md",
+    "nemici",
+    "giocatori",
+    "storia"
+  ]
+}
