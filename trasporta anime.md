@@ -1,0 +1,2 @@
+il traporta anime è una delle poche persone dell'[[isola]] che sono immuni a questa maledizione
+per passare dall'altra parte dall'altra del fiume vuole 500mo (è immune a tutti gli attacchi essendo uno spirito) se non volete pagare potete accettare la sua [[sfida mortale]] 

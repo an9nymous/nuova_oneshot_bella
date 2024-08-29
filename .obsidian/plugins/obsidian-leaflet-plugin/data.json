@@ -1,0 +1,408 @@
+{
+  "mapMarkers": [
+    {
+      "id": "leaflet-map",
+      "lastAccessed": 1724949558371,
+      "markers": [
+        {
+          "id": "ID_3b6a482b486b",
+          "type": "default",
+          "loc": [
+            -3.3046875,
+            2.4375
+          ],
+          "link": "taverna",
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.2874913614374568,
+            0.43788819875776397
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9ac9d94aa8c8",
+          "type": "default",
+          "loc": [
+            -1.3321533203125,
+            3.25
+          ],
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "da qui arriveranno gli avventurieri scendendo dalla barca",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8869fb8bcbc8",
+          "type": "default",
+          "loc": [
+            -3.5234375,
+            2.9765625
+          ],
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.3510711817553559,
+            0.4668737060041408
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cbc9f83aab59",
+          "type": "default",
+          "loc": [
+            -3.0703125,
+            4.40625
+          ],
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5196959225984796,
+            0.40683229813664595
+          ],
+          "description": "taverna 2 ",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a3b79f918cb",
+          "type": "default",
+          "loc": [
+            -5.4805908203125,
+            6.015625
+          ],
+          "link": "castello",
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_3abaa81bf9d9",
+          "type": "default",
+          "loc": [
+            -2.0899658203125,
+            4.8671875
+          ],
+          "link": "barca",
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "da questa barca partiranno per andare alla missione",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eaca2a3949f9",
+          "type": "default",
+          "loc": [
+            -3.3712158203125,
+            3.3671875
+          ],
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7a8848ba9af9",
+          "type": "default",
+          "loc": [
+            -2.5587158203125,
+            3.140625
+          ],
+          "link": "mercato",
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_d969a9084a3b",
+          "type": "default",
+          "loc": [
+            -3.5196533203125,
+            6.328125
+          ],
+          "link": "ungerground",
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e98ad89b8949",
+          "type": "default",
+          "loc": [
+            -1.408203125,
+            1.240234375
+          ],
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "arrivano da qui",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8cb7b78ea7b",
+          "type": "default",
+          "loc": [
+            -3.0821533203125,
+            4.4453125
+          ],
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ba39c8298b6b",
+          "type": "default",
+          "loc": [
+            -0.95703125,
+            1.4140625
+          ],
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "villaggio 1",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9abbe8197af9",
+          "type": "default",
+          "loc": [
+            -1.1548004150390625,
+            1.3369140625
+          ],
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_490ac87a182b",
+          "type": "default",
+          "loc": [
+            -1.4921875,
+            0.44921875
+          ],
+          "link": "trasporta anime",
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "rectangle",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": -3.0040283203125,
+              "lng": 2.046875,
+              "id": "ID_4b290b19397a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -3.0040283203125,
+              "lng": 2.7734375,
+              "id": "ID_085aca3bcb2b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -3.6290283203125,
+              "lng": 2.7734375,
+              "id": "ID_c848aa3b3939",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -3.6290283203125,
+              "lng": 2.046875,
+              "id": "ID_4929ba59f919",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ]
+        },
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": -5.3243408203125,
+              "lng": 2.078125,
+              "id": "ID_58db88d93af9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -3.96875,
+              "lng": 4.21875,
+              "id": "ID_895849a9a91b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -2.2227783203125,
+              "lng": 3.515625,
+              "id": "ID_98eb6af94939",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -5.3165283203125,
+              "lng": 2.0703125,
+              "id": "ID_5aebc819bb09",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "mappa città.md",
+        "isola.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": false,
+    "defaultZoom": 8.4,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "500px",
+    "image": "[[Pasted image 20240829154258.png]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[Pasted image 20240829154258.png]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 10,
+    "minZoom": 1,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 1,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 1,
+    "zoomFeatures": false,
+    "id": "leaflet-map",
+    "lat": 50,
+    "long": 50,
+    "unit": "meters",
+    "filterTag": []
+  },
+  "enableDraw": true,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}

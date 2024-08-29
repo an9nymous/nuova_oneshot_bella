@@ -1,0 +1,1 @@
+darà loro la quest principale, la [[maledizione]] gli viene racconta la storia della maledizione (nella pagina maledizione) e dice che non c'è bisogno di una nave perchè Poseidone nel morire si è dimenticato di togliere il passaggio magico che collega il 3° pontile all'[[isola]]

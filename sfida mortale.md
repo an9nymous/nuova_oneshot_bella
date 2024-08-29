@@ -1,0 +1,1 @@
+se andate tutto a nord trovate i villaggio di brightwood, un villaggio maledetto da un [[orrore corazzato]] se riuscite a portarlo vivo al [[trasporta anime]] li lascia passare gratuitamente
