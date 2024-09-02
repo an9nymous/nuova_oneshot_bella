@@ -1,7 +1,7 @@
 #mappa
 https://watabou.github.io/city-generator?size=20&seed=50411422&name=Bluehill&greens=0&citadel=1&urban_castle=0&plaza=1&temple=1&walls=0&shantytown=0&coast=1&river=0&hub=1&sea=0.3
 ```leaflet
-id: leaflet-map
+id: mappa_citta
 image: [[città.jpg]]
 height: 500px
 lat: 40

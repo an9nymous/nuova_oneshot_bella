@@ -34,6 +34,20 @@
         "a": 1,
         "rgb": 6084188
       }
+    },
+    {
+      "query": "tag:#schede ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "tag:#equipaggiamento  ",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
     }
   ],
   "collapse-display": true,
@@ -42,10 +56,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.807291666666667,
+  "centerStrength": 1,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7132754626224428,
+  "scale": 0.7132754626224442,
   "close": true
 }

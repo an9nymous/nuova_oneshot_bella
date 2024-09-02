@@ -36,43 +36,19 @@
             }
           },
           {
-            "id": "da01c9d143a1b265",
+            "id": "4ff08cf4f096b75a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alleati/piero.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fccc45fdd49ac737",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alleati/claudio.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd4890693726088f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alleati/claudio.md",
+                "file": "anello.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "849172f533b13b4b",
@@ -87,8 +63,35 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "46e2dea9c9ff0f6a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "isola.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c392443432bcbe14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nemici/medusa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,6 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "nemici/medusa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,6 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "nemici/medusa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +196,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "nemici/medusa.md"
+              }
             }
           }
         ]
@@ -213,51 +220,53 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "c44ec4d0d7b5bd3d",
+  "active": "c392443432bcbe14",
   "lastOpenFiles": [
-    "alleati/claudio.md",
-    "alleati/roberto IV.md",
-    "alleati/piero.md",
-    "alleati",
-    "Pasted image 20240829185317.png",
-    "nemici/zombie ogre.md",
-    "nemici/orrore corazzato.md",
-    "immagini/Pasted image 20240829184912.png",
-    "sfida mortale.md",
-    "trasporta anime.md",
+    "isola.md",
     "mappa città.md",
+    "anello.md",
+    "nemici/orrore corazzato.md",
+    "taverna.md",
+    "spettro.md",
+    "empireo.md",
+    "villaggio di brightwood.md",
+    "sfida mortale.md",
+    "villaggio dannato di brightwood.md",
+    "trasporta anime.md",
+    "immagini/Pasted image 20240902134054.png",
+    "giocatori/Turchetto.md",
+    "storia/storia.md",
     "nemici/medusa.md",
+    "giocatori/gabri.md",
+    "giocatori/Luca.md",
+    "re.md",
+    "giocatori/scheda_luca.pdf",
+    "base.md",
+    "alleati/claudio.md",
+    "giocatori/scheda_turchetto.pdf",
+    "giocatori/scheda_fra.pdf",
+    "giocatori/scheda_ary.pdf",
+    "giocatori/scheda gabri.pdf",
+    "giocatori/Francesco negro.md",
+    "giocatori/Arianna.md",
+    "immagini/Pasted image 20240829221815.png",
+    "alleati/piero.md",
+    "immagini/Pasted image 20240829185317.png",
+    "alleati/roberto IV.md",
+    "alleati",
+    "nemici/zombie ogre.md",
+    "immagini/Pasted image 20240829184912.png",
     "immagini/Pasted image 20240829154258.png",
     "immagini/Pasted image 20240829172322.png",
     "immagini/Pasted image 20240829184551.png",
-    "isola.md",
-    "storia/storia.md",
-    "re.md",
     "castello.md",
     "immagini/città.jpg",
     "immagini/Pasted image 20240829173404.png",
     "immagini/città.png",
-    "immagini/bailersretreat_matthewblakk.jpg",
     "maledizione.md",
-    "soldato.md",
-    "mercato.md",
     "codici/main.py",
     "codici",
-    "band.md",
-    "pendente sospetto.md",
-    "giocatori/gabri.md",
-    "coltello a lama bianca.md",
     "immagini",
-    "taverna.md",
-    "settings",
-    "ungerground.md",
-    "empireo.md",
-    "Note.md",
-    "settings/siti.md",
-    "mappa/città.jpg.opdownload",
-    "mappa/città.png.opdownload",
-    "mappa",
-    "Nuova cartella",
-    "nuova_oneshot_bella"
+    "settings"
   ]
 }

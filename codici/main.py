@@ -1,105 +1,112 @@
 import tkinter as tk
-from tkinter import messagebox, simpledialog
+from tkinter import messagebox, ttk
 import random
 
 class Negozio:
-    def __init__(self, master, nome):
+    def __init__(self, master, nome, tipo_merce):
         self.master = master
         self.nome = nome
-        self.data = self.initialize_data(nome)
+        self.tipo_merce = tipo_merce
+        self.data = self.initialize_data(tipo_merce)
         self.auto_mode = False
+        self.min_gold_threshold = 50  # Soglia minima di oro
 
         self.root = tk.Toplevel(master)
-        self.root.title(f"Negozio di D&D - {self.nome}")
+        self.root.title(f"{self.nome} - {self.tipo_merce.capitalize()}")
 
         self.setup_ui()
 
-    def initialize_data(self, nome):
-        """Inizializza i dati in base al nome del negozio."""
-        if "magia" in nome.lower():
-            return {
+    def initialize_data(self, tipo_merce):
+        """Inizializza i dati in base al tipo di merce del negozio."""
+        data = {
+            "magia": {
                 "gold": 100,
                 "items": {
                     "Pozione di guarigione": {"price": 50, "quantity": 10},
-                    "Bacchetta magica": {"price": 75, "quantity": 7},
-                    "Elisir di Mana": {"price": 100, "quantity": 5},
+                    "Bacchetta magica": {"price": 15, "quantity": 7},
                     "Pergamena di Teletrasporto": {"price": 150, "quantity": 3},
-                    "Cristallo Magico": {"price": 200, "quantity": 2},
+                    "Cristallo Magico": {"price": 10, "quantity": 2},
                     "Rune di Protezione": {"price": 250, "quantity": 4},
-                    "Amuleto del Magus": {"price": 300, "quantity": 1}
                 }
-            }
-        elif "armi" in nome.lower():
-            return {
+            },
+            "armi": {
                 "gold": 150,
                 "items": {
-                    "Spada lunga": {"price": 100, "quantity": 5},
-                    "Scudo": {"price": 75, "quantity": 3},
-                    "Arco corto": {"price": 150, "quantity": 2},
-                    "Ascia da battaglia": {"price": 120, "quantity": 4},
-                    "Pugnale": {"price": 80, "quantity": 6},
-                    "Lancia": {"price": 90, "quantity": 5},
-                    "Martello da guerra": {"price": 200, "quantity": 2}
+                    "Spada lunga": {"price": 16, "quantity": 5},
+                    "Scudo": {"price": 11, "quantity": 3},
+                    "Arco corto": {"price": 26, "quantity": 2},
+                    "Ascia da battaglia": {"price": 11, "quantity": 4},
+                    "Pugnale": {"price": 3, "quantity": 6},
+                    "Lancia": {"price": 2, "quantity": 5},
+                    "Martello da guerra": {"price": 16, "quantity": 2},
+                    "ascia bipenne":{"price": 31, "quantity": 2}
                 }
-            }
-        elif "cibo" in nome.lower():
-            return {
+            },
+            "cibo": {
                 "gold": 50,
                 "items": {
-                    "Pane": {"price": 5, "quantity": 20},
+                    "Pane": {"price": 1, "quantity": 10},
                     "Formaggio": {"price": 10, "quantity": 15},
                     "Vino": {"price": 20, "quantity": 10},
                     "Carne essiccata": {"price": 25, "quantity": 8},
                     "Frutta fresca": {"price": 15, "quantity": 12},
                     "Noci": {"price": 8, "quantity": 25},
-                    "Cibo da Campo": {"price": 12, "quantity": 18}
+                    "razioni giornaliere": {"price": 12, "quantity": 18}
                 }
-            }
-        elif "strumenti" in nome.lower():
-            return {
+            },
+            "strumenti": {
                 "gold": 80,
                 "items": {
-                    "Kit da Avventuriero": {"price": 60, "quantity": 5},
+                    "strumenti da pittore": {"price": 20, "quantity": 5},
                     "Mappa del Tesoro": {"price": 100, "quantity": 3},
                     "Lanterna Magica": {"price": 45, "quantity": 7},
-                    "Filo d'Argento": {"price": 25, "quantity": 15},
-                    "Campanella di Allerta": {"price": 30, "quantity": 10},
-                    "Pozione di Invisibilità": {"price": 200, "quantity": 2}
+                    "viola": {"price": 30, "quantity": 1},
+                    "giaciglio": {"price": 1, "quantity": 10}
                 }
-            }
-        elif "generale" in nome.lower():
-            return {
+            },
+            "generale": {
                 "gold": 200,
                 "items": {
                     "Pozione di guarigione": {"price": 50, "quantity": 15},
-                    "Spada lunga": {"price": 100, "quantity": 10},
-                    "Scudo": {"price": 75, "quantity": 6},
-                    "Elisir di Mana": {"price": 100, "quantity": 10},
-                    "Mantello dell'invisibilità": {"price": 200, "quantity": 2},
+                    "Spada lunga": {"price": 20, "quantity": 10},
+                    "Scudo": {"price": 30, "quantity": 6},
                     "Pane": {"price": 5, "quantity": 20},
                     "Formaggio": {"price": 10, "quantity": 15},
-                    "Kit da Avventuriero": {"price": 60, "quantity": 5},
+                    "strumenti da alchimista": {"price": 60, "quantity": 5},
                     "Mappa del Tesoro": {"price": 100, "quantity": 3}
                 }
-            }
-        else:
-            return {
-                "gold": 100,
-                "items": {
-                    "Pozione di guarigione": {"price": 50, "quantity": 10},
-                    "Spada lunga": {"price": 100, "quantity": 5},
-                    "Scudo": {"price": 75, "quantity": 3},
-                    "Arco corto": {"price": 150, "quantity": 2},
-                    "Mantello dell'invisibilità": {"price": 200, "quantity": 1},
-                    "Pane": {"price": 5, "quantity": 20},
-                    "Formaggio": {"price": 10, "quantity": 15}
+            },
+            "veicoli":{
+                "gold": 200,
+                "items":{
+                    "mulo":{"price": 8, "quantity":10},
+                    "cavallo": {"price": 75, "quantity": 5},
+                    "cavallo da guerra": {"price": 400, "quantity": 3},
+                    "barca a remi": {"price": 50, "quantity": 2}
                 }
             }
+        }
+
+        return data.get(tipo_merce, {
+            "gold": 100,
+            "items": {
+                "Pozione di guarigione": {"price": 50, "quantity": 10},
+                "Spada lunga": {"price": 17, "quantity": 5},
+                "Scudo": {"price": 25, "quantity": 3},
+                "Arco corto": {"price": 30, "quantity": 2},
+                "Pane": {"price": 5, "quantity": 20},
+                "Formaggio": {"price": 10, "quantity": 15}
+            }
+        })
 
     def setup_ui(self):
         """Configura l'interfaccia utente del negozio."""
         main_frame = tk.Frame(self.root, padx=10, pady=10)
         main_frame.pack(fill=tk.BOTH, expand=True)
+
+        # Label per mostrare il nome del negozio e il tipo di merce come titolo
+        titolo_label = tk.Label(main_frame, text=f"{self.nome} - {self.tipo_merce.capitalize()}", font=('Arial', 18, 'bold'))
+        titolo_label.pack(pady=10)
 
         # Label per mostrare l'oro disponibile
         self.gold_label = tk.Label(main_frame, text=f"Oro disponibile: {self.data['gold']}", font=('Arial', 16))
@@ -149,6 +156,13 @@ class Negozio:
             sell_button = tk.Button(item_frame, text="Vendi", command=lambda i=item: self.sell_item(i))
             sell_button.grid(row=2, column=1, padx=5, pady=5)
 
+        # Casella per scrivere note
+        self.notes_label = tk.Label(main_frame, text="Note:", font=('Arial', 12))
+        self.notes_label.pack(pady=5)
+
+        self.notes_text = tk.Text(main_frame, height=5, width=25)
+        self.notes_text.pack(pady=5)
+
         self.update_ui()
 
     def update_ui(self):
@@ -171,7 +185,7 @@ class Negozio:
         """Rimuovi oro dal negozio."""
         try:
             amount = int(self.gold_entry.get())
-            if self.data['gold'] >= amount:
+            if amount <= self.data['gold']:
                 self.data['gold'] -= amount
                 self.update_ui()
             else:
@@ -180,36 +194,34 @@ class Negozio:
             messagebox.showerror("Errore", "Inserisci un numero valido")
 
     def buy_item(self, item):
-        """Acquista un oggetto."""
-        if self.data['gold'] >= self.data['items'][item]['price']:
-            self.data['gold'] -= self.data['items'][item]['price']
-            self.data['items'][item]['quantity'] += 1
+        """Compra un oggetto dal negozio."""
+        item_details = self.data['items'][item]
+        if self.data['gold'] >= item_details['price']:
+            self.data['gold'] -= item_details['price']
+            item_details['quantity'] += 1
             self.update_ui()
         else:
-            messagebox.showerror("Errore", "Oro insufficiente")
+            messagebox.showerror("Errore", "Non hai abbastanza oro")
 
     def sell_item(self, item):
-        """Vendi un oggetto."""
-        if self.data['items'][item]['quantity'] > 0:
-            self.data['gold'] += self.data['items'][item]['price']
-            self.data['items'][item]['quantity'] -= 1
-            self.update_ui()
+        """Vendi un oggetto dal negozio."""
+        item_details = self.data['items'][item]
+        if item_details['quantity'] > 0:
+            # Vendi solo se l'oro è inferiore alla soglia minima
+            if self.data['gold'] < self.min_gold_threshold:
+                self.data['gold'] += item_details['price']
+                item_details['quantity'] -= 1
+                self.update_ui()
+                # Vendi finché l'oro non raggiunge la soglia minima
+                if self.data['gold'] < self.min_gold_threshold:
+                    self.root.after(1000, lambda: self.sell_item(item))
+            else:
+                messagebox.showinfo("Info", "L'oro è sufficiente, puoi acquistare ulteriori beni.")
         else:
-            messagebox.showerror("Errore", "Quantità insufficiente")
-
-    def automatic_update(self):
-        """Aggiornamento automatico dei dati."""
-        if self.auto_mode:
-            self.data['gold'] += random.randint(-20, 50)
-            for item in self.data['items']:
-                change = random.randint(-3, 3)
-                self.data['items'][item]['quantity'] = max(0, self.data['items'][item]['quantity'] + change)
-            self.update_ui()
-            N = random.randint(5, 15)
-            self.root.after(N * 1000, self.automatic_update)
+            messagebox.showerror("Errore", "Non ci sono abbastanza oggetti")
 
     def toggle_mode(self):
-        """Passa tra modalità manuale e automatica."""
+        """Cambia modalità tra manuale e automatico."""
         self.auto_mode = not self.auto_mode
         if self.auto_mode:
             self.mode_button.config(text="Passa a Manuale")
@@ -217,29 +229,58 @@ class Negozio:
         else:
             self.mode_button.config(text="Passa ad Automatico")
 
+    def automatic_update(self):
+        """Aggiornamento automatico dei dati."""
+        if self.auto_mode:
+            self.data['gold'] += random.randint(-20, 50)
+            for item in self.data['items']:
+                change = random.randint(-3, 3)
+                new_quantity = max(1, self.data['items'][item]['quantity'] + change)
+                self.data['items'][item]['quantity'] = new_quantity
+            self.update_ui()
+            self.root.after(5000, self.automatic_update)
 
-class PannelloDiComando:
-    def __init__(self):
-        self.root = tk.Tk()
-        self.root.title("Pannello di Comando")
 
-        self.negozi = {}
+class PannelloComando:
+    def __init__(self, master):
+        self.master = master
+        self.master.title("Pannello di Comando")
 
-        self.new_negozio_button = tk.Button(self.root, text="Crea Nuovo Negozio", command=self.crea_negozio)
-        self.new_negozio_button.pack(pady=10)
+        # Lista dei tipi di merce
+        self.tipi_merce = ["magia", "armi", "cibo", "strumenti", "generale", "veicoli"]
 
-        self.root.mainloop()
+        # Etichetta per il nome del negozio
+        self.nome_label = tk.Label(master, text="Nome del Negozio:")
+        self.nome_label.pack(pady=10)
+
+        # Entry per il nome del negozio
+        self.nome_entry = tk.Entry(master)
+        self.nome_entry.pack(pady=5)
+
+        # Etichetta per il tipo di merce
+        self.tipo_merce_label = tk.Label(master, text="Tipo di Merce:")
+        self.tipo_merce_label.pack(pady=10)
+
+        # Dropdown per selezionare il tipo di merce
+        self.tipo_merce_combobox = ttk.Combobox(master, values=self.tipi_merce)
+        self.tipo_merce_combobox.set(self.tipi_merce[0])
+        self.tipo_merce_combobox.pack(pady=5)
+
+        # Bottone per creare il negozio
+        self.crea_negozio_button = tk.Button(master, text="Crea Negozio", command=self.crea_negozio)
+        self.crea_negozio_button.pack(pady=10)
 
     def crea_negozio(self):
-        """Crea un nuovo negozio con un nome unico."""
-        nome = simpledialog.askstring("Nome del Negozio", "Inserisci il nome del nuovo negozio:", parent=self.root)
-        if nome:
-            if nome in self.negozi:
-                messagebox.showerror("Errore", "Esiste già un negozio con questo nome.")
-            else:
-                negozio = Negozio(self.root, nome)
-                self.negozi[nome] = negozio
+        nome_negozio = self.nome_entry.get()
+        tipo_merce = self.tipo_merce_combobox.get()
+
+        if nome_negozio and tipo_merce:
+            Negozio(self.master, nome_negozio, tipo_merce)
+        else:
+            messagebox.showerror("Errore", "Inserisci il nome del negozio e seleziona il tipo di merce")
 
 
 if __name__ == "__main__":
-    PannelloDiComando()
+    root = tk.Tk()
+    pannello = PannelloComando(root)
+    root.mainloop()

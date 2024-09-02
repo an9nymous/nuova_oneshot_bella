@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "leaflet-map",
-      "lastAccessed": 1724949558371,
+      "lastAccessed": 1725285700447,
       "markers": [
         {
           "id": "ID_3b6a482b486b",
@@ -182,8 +182,8 @@
           "id": "ID_b8cb7b78ea7b",
           "type": "default",
           "loc": [
-            -3.0821533203125,
-            4.4453125
+            -3.3125,
+            4.609375
           ],
           "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
           "mutable": true,
@@ -211,22 +211,6 @@
           "tooltip": "hover"
         },
         {
-          "id": "ID_9abbe8197af9",
-          "type": "default",
-          "loc": [
-            -1.1548004150390625,
-            1.3369140625
-          ],
-          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
           "id": "ID_490ac87a182b",
           "type": "default",
           "loc": [
@@ -239,6 +223,23 @@
           "command": false,
           "percent": null,
           "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aae9393b692a",
+          "type": "default",
+          "loc": [
+            -0.43951416015625,
+            0.7734375
+          ],
+          "link": "villaggio di brightwood",
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -327,6 +328,223 @@
       ],
       "files": [
         "mappa città.md",
+        "isola.md"
+      ]
+    },
+    {
+      "id": "mappa_citta",
+      "lastAccessed": 1725285891391,
+      "markers": [
+        {
+          "id": "ID_3988796b0ac9",
+          "type": "default",
+          "loc": [
+            -3.3712158203125,
+            2.6796875
+          ],
+          "link": "taverna",
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6acacaf948b8",
+          "type": "default",
+          "loc": [
+            -5.40625,
+            5.9765625
+          ],
+          "link": "castello",
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7049067035245336,
+            0.7163561076604554
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2958faab5be9",
+          "type": "default",
+          "loc": [
+            -2.5196533203125,
+            3.1015625
+          ],
+          "link": "mercato",
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5afb79d9481b",
+          "type": "default",
+          "loc": [
+            -2.1915283203125,
+            4.859375
+          ],
+          "layer": "%5B%5Bcitt%C3%A0.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "barca",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "rectangle",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": -2.953125,
+              "lng": 2.03125,
+              "id": "ID_79aab8a82a09",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -2.953125,
+              "lng": 2.8046875,
+              "id": "ID_798bfa6b7b38",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -3.6134033203125,
+              "lng": 2.8046875,
+              "id": "ID_ca4a9a0a18f8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -3.6134033203125,
+              "lng": 2.03125,
+              "id": "ID_1838a85b6b7b",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ]
+        }
+      ],
+      "files": [
+        "mappa città.md"
+      ]
+    },
+    {
+      "id": "mappa-isola",
+      "lastAccessed": 1725285891391,
+      "markers": [
+        {
+          "id": "ID_58b86a88da29",
+          "type": "default",
+          "loc": [
+            -1.49810791015625,
+            0.46875
+          ],
+          "link": "trasporta anime",
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a1a2b182889",
+          "type": "default",
+          "loc": [
+            -1.36920166015625,
+            1.25390625
+          ],
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "arrivano qui",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9bb8bb09bb8b",
+          "type": "default",
+          "loc": [
+            -1.00390625,
+            1.2734375
+          ],
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.63671875,
+            0.501953125
+          ],
+          "description": "villaggio 1",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68a9fab94aa9",
+          "type": "default",
+          "loc": [
+            -0.39263916015625,
+            0.75390625
+          ],
+          "link": "villaggio di brightwood",
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_193aa9696b29",
+          "type": "default",
+          "loc": [
+            -1.59967041015625,
+            0.26171875
+          ],
+          "link": "medusa",
+          "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
         "isola.md"
       ]
     }
