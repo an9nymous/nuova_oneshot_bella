@@ -1,6 +1,6 @@
 ```leaflet
 id: mappa-isola
-image: [[Pasted image 20240829154258.png]]
+image: [[isola.png]]
 height: 500px
 lat: 50
 long: 50

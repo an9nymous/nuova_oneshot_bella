@@ -1,0 +1,1 @@
+quando cadi con quest'armatura hai il 50% di possibilità di rialzarti subito con 1 hp

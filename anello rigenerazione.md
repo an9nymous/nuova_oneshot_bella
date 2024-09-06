@@ -1,0 +1,1 @@
+questo anello rigenera 1 di vita all'inizio del turno del portatore

@@ -332,8 +332,165 @@
       ]
     },
     {
+      "id": "mappa-segreta",
+      "lastAccessed": 1725359971048,
+      "markers": [
+        {
+          "id": "ID_8b99e84af81a",
+          "type": "default",
+          "loc": [
+            -0.815460205078125,
+            0.814453125
+          ],
+          "layer": "%5B%5Bbattagia_corte.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "entrano da qui",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7baafac86a3b",
+          "type": "default",
+          "loc": [
+            -0.474609375,
+            0.587890625
+          ],
+          "link": "re",
+          "layer": "%5B%5Bbattagia_corte.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5689981096408318,
+            0.3319672131147541
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7bea5b1a4a9a",
+          "type": "default",
+          "loc": [
+            -0.5630035400390625,
+            0.62109375
+          ],
+          "link": "guardia di mithril",
+          "layer": "%5B%5Bbattagia_corte.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_49095a197aab",
+          "type": "default",
+          "loc": [
+            -0.5346832275390625,
+            0.6220703125
+          ],
+          "link": "guardia di mithril",
+          "layer": "%5B%5Bbattagia_corte.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a09b8288a8a",
+          "type": "default",
+          "loc": [
+            -0.48046875,
+            0.623046875
+          ],
+          "link": "guardia di mithril",
+          "layer": "%5B%5Bbattagia_corte.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6030245746691871,
+            0.3360655737704918
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_492b79d95adb",
+          "type": "default",
+          "loc": [
+            -0.4770660400390625,
+            0.5634765625
+          ],
+          "link": "guardia di mithril",
+          "layer": "%5B%5Bbattagia_corte.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "rectangle",
+          "color": "#00ffe1",
+          "vertices": [
+            {
+              "lat": -0.778350830078125,
+              "lng": 0.427734375,
+              "id": "ID_8a8bf9183848",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -0.778350830078125,
+              "lng": 0.583984375,
+              "id": "ID_d92b988a8988",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -1.10546875,
+              "lng": 0.583984375,
+              "id": "ID_a8f82ad8b8b8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -1.10546875,
+              "lng": 0.427734375,
+              "id": "ID_489808095aca",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ]
+        }
+      ],
+      "files": [
+        "battaglia segreta.md"
+      ]
+    },
+    {
       "id": "mappa_citta",
-      "lastAccessed": 1725285891391,
+      "lastAccessed": 1725532081118,
       "markers": [
         {
           "id": "ID_3988796b0ac9",
@@ -453,7 +610,7 @@
     },
     {
       "id": "mappa-isola",
-      "lastAccessed": 1725285891391,
+      "lastAccessed": 1725532081119,
       "markers": [
         {
           "id": "ID_58b86a88da29",
