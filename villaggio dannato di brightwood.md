@@ -1,1 +1,0 @@
-in questo villaggio c'è l'[[orrore corazzato]] 

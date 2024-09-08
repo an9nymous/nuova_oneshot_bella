@@ -490,7 +490,7 @@
     },
     {
       "id": "mappa_citta",
-      "lastAccessed": 1725532081118,
+      "lastAccessed": 1725650868648,
       "markers": [
         {
           "id": "ID_3988796b0ac9",
@@ -610,7 +610,7 @@
     },
     {
       "id": "mappa-isola",
-      "lastAccessed": 1725532081119,
+      "lastAccessed": 1725650868648,
       "markers": [
         {
           "id": "ID_58b86a88da29",
@@ -690,6 +690,128 @@
           ],
           "link": "medusa",
           "layer": "%5B%5BPasted%20image%2020240829154258.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb2be84a6969",
+          "type": "default",
+          "loc": [
+            -1.38873291015625,
+            1.19140625
+          ],
+          "layer": "%5B%5Bisola.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3b0a38facbcb",
+          "type": "default",
+          "loc": [
+            -1.50201416015625,
+            0.46484375
+          ],
+          "link": "trasporta anime",
+          "layer": "%5B%5Bisola.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f9199a9a1a68",
+          "type": "default",
+          "loc": [
+            -0.42388916015625,
+            0.828125
+          ],
+          "link": "villaggio di brightwood",
+          "layer": "%5B%5Bisola.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e81ba9aa9bca",
+          "type": "default",
+          "loc": [
+            -1.3984375,
+            1.23046875
+          ],
+          "layer": "%5B%5Bisola.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.615234375,
+            0.69921875
+          ],
+          "description": "enounter",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_88b888dae8c8",
+          "type": "default",
+          "loc": [
+            -0.81640625,
+            0.9296875
+          ],
+          "layer": "%5B%5Bisola.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.46484375,
+            0.408203125
+          ],
+          "description": "encounter",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_abda2bb9a9e8",
+          "type": "default",
+          "loc": [
+            -1.59185791015625,
+            0.2578125
+          ],
+          "link": "medusa",
+          "layer": "%5B%5Bisola.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_689b0988ab39",
+          "type": "default",
+          "loc": [
+            -0.46295166015625,
+            1.46484375
+          ],
+          "link": "zona segreta",
+          "layer": "%5B%5Bisola.png%5D%5D",
           "mutable": true,
           "command": false,
           "percent": null,

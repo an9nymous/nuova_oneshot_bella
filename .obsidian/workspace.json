@@ -40,19 +40,9 @@
             "id": "4ff08cf4f096b75a",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "immagini/stampare/battagia_corte.png"
-              }
-            }
-          },
-          {
-            "id": "3b18a8459475c21f",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "chiave del re.md",
+                "file": "nemici/medusa.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "nemici/medusa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,6 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "nemici/medusa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +185,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "nemici/medusa.md"
+              }
             }
           }
         ]
@@ -215,29 +209,41 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "c44ec4d0d7b5bd3d",
+  "active": "4ff08cf4f096b75a",
   "lastOpenFiles": [
+    "settings/connessione altri dispositivi.md",
+    "benda.md",
+    "nemici/medusa.md",
+    "mappa città.md",
     "storia/storia.md",
-    "immagini/stampare/città.jpg",
-    "immagini/bailersretreat_matthewblakk.jpg",
-    "battaglia segreta.md",
-    "soldati.md",
-    "immagini/Pasted image 20240903124034.png",
+    "maledizione.md",
+    "trasporta anime.md",
+    "nemici/guardia di mithril.md",
+    "empireo.md",
+    "giocatori/scheda gabri.pdf",
+    "ungerground.md",
+    "maledizione del mimic.md",
+    "zona segreta.md",
+    "nemici/orrore corazzato.md",
+    "barca.md",
     "tesoreria.md",
     "armatura del morto.md",
-    "anello rigenerazione.md",
-    "anello.md",
-    "chiave del re.md",
-    "nemici/guardia di mithril.md",
-    "nemici/medusa.md",
-    "nemici/orrore corazzato.md",
-    "immagini/Pasted image 20240903105504.png",
+    "nemici/soldati.md",
+    "nemici/soldato.md",
+    "nemici/spettro.md",
+    "mimic.md",
+    "immagini/Pasted image 20240906215932.png",
     "isola.md",
-    "castello.md",
-    "re.md",
-    "maledizione.md",
-    "mappa città.md",
+    "chiave del re.md",
+    "sfida mortale.md",
+    "villaggio di brightwood.md",
+    "villaggio dannato di brightwood.md",
     "immagini/stampare/battagia_corte.png",
+    "re.md",
+    "immagini/stampare/città.jpg",
+    "immagini/bailersretreat_matthewblakk.jpg",
+    "immagini/Pasted image 20240903124034.png",
+    "immagini/Pasted image 20240903105504.png",
     "immagini/stampare/Barbarian.stl",
     "immagini/stampare/Barbarian.stl.opdownload",
     "immagini/isola.png",
@@ -245,22 +251,11 @@
     "immagini/stampare/isola_bianco_reno.jpg.opdownload",
     "immagini/Pasted image 20240902134054.png",
     "immagini/Pasted image 20240829221815.png",
-    "immagini/Pasted image 20240829185317.png",
     "immagini/stampare",
-    "settings/connessione altri dispositivi.md",
-    "settings/siti.md",
-    "coltello a lama bianca.md",
-    "trasporta anime.md",
-    "villaggio di brightwood.md",
-    "ungerground.md",
-    "spettro.md",
-    "taverna.md",
-    "sfida mortale.md",
     "giocatori/scheda_luca.pdf",
     "giocatori/scheda_turchetto.pdf",
     "giocatori/scheda_fra.pdf",
     "giocatori/scheda_ary.pdf",
-    "giocatori/scheda gabri.pdf",
     "alleati"
   ]
 }

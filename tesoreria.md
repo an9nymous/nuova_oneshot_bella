@@ -6,7 +6,7 @@ per aprirla serve la [[chiave del re]] la porta è incantata da una potente magi
 		1 
 			[[armatura del morto]]
 		2 
-			mimic
+			[[mimic]]
 		3
 			[[anello rigenerazione]]
 			

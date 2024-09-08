@@ -2,7 +2,7 @@
 #storia
 
 
-nella [[taverna]] [[gabri]] vede questo: 
+nella [[taverna]] [[Luca]] vede questo: 
 ![[bailersretreat_matthewblakk.jpg]]
 
 nel tavolo all'angolo c'è un gruppo di avventurieri ( gli altri giocatori) lui ci andrà a parlare

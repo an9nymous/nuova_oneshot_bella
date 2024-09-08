@@ -1,0 +1,1 @@
+questa benda è in grado di annullare lo **sguardo pietrificante** di [[medusa]], però in compenso chi la avrà addosso avrà la visibilità ridotta, così vedendo massimo 9 metri, per attaccare al di fuori di questo raggio ha svantaggio (vedere il manuale giocatore pag 173)
